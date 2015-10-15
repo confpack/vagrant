@@ -1,0 +1,24 @@
+Confpack Development Environment
+================================
+
+In order to keep everyone's development environment constnat, this repository
+sets up all the vagrant stuff needed. In order to work on confpack related
+projects, clone the repository into the `src` folder and work from in there.
+
+That folder is ignored by this git repository, so you should be able to use
+your git tools just fine.
+
+Example setup:
+
+    $ git clone https://github.com/confpack/vagrant.git confpack
+    $ cd confpack/src
+    $ git clone https://github.com/confpack/runtime.git
+
+This should give you:
+
+confpack/
+  src/
+    runtime/
+      ...
+  Vagranfile
+  README
